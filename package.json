@@ -2,9 +2,9 @@
   "name": "starfall",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/js/sketch.js",
+  "main": "./src/app.js",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode production",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --mode development --open"
   },
